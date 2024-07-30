@@ -20,7 +20,7 @@ class DogController{
              ];
              Flight::json($data);
         }else{
-            Flight::json("La data está vacia!");
+            Flight::json("La data está vacia!!!");
         }
     }
     public function show($id):void{
